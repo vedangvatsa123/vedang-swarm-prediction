@@ -26,3 +26,4 @@ Thumbs.db
 # Misc
 *.swp
 *.swo
+backend/uploads/
