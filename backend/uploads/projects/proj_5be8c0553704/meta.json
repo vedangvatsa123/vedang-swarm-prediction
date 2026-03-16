@@ -1,0 +1,34 @@
+{
+  "project_id": "proj_5be8c0553704",
+  "name": "Network State",
+  "status": "created",
+  "created_at": "2026-03-16T17:24:10.146626Z",
+  "updated_at": "2026-03-16T17:30:31.966326Z",
+  "files": [
+    {
+      "original_name": "20191228_201400_a-brief-history-of-money.txt",
+      "saved_name": "4ca3b27c.txt",
+      "path": "/Users/vedang/Vedang/backend/app/../uploads/projects/proj_5be8c0553704/files/4ca3b27c.txt",
+      "size": 25631
+    }
+  ],
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Person",
+        "description": "Individual person"
+      },
+      {
+        "name": "Organization",
+        "description": "Organisation or group"
+      }
+    ],
+    "edge_types": [],
+    "analysis_summary": ""
+  },
+  "analysis_summary": null,
+  "prediction_goal": "futute of countries",
+  "error": null,
+  "graph_id": "g_69b2c7e66da1",
+  "sim_id": "sim_426f66f30429"
+}

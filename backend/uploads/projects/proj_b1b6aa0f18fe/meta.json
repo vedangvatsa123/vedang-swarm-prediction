@@ -1,0 +1,226 @@
+{
+  "project_id": "proj_b1b6aa0f18fe",
+  "name": "india's gdp",
+  "status": "graph_building",
+  "created_at": "2026-03-16T16:06:09.672323Z",
+  "updated_at": "2026-03-16T16:09:15.880603Z",
+  "files": [
+    {
+      "original_name": "balajis-all-posts.txt",
+      "saved_name": "8b70c3e0.txt",
+      "path": "/Users/vedang/Vedang/backend/app/../uploads/projects/proj_b1b6aa0f18fe/files/8b70c3e0.txt",
+      "size": 1535125
+    }
+  ],
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Technologist",
+        "description": "Individual involved in technology development/use.",
+        "attributes": [
+          "expertise",
+          "affiliation"
+        ],
+        "examples": [
+          "Balaji Srinivasan",
+          "Vannevar Bush"
+        ]
+      },
+      {
+        "name": "Organisation",
+        "description": "A group with a formal structure.",
+        "attributes": [
+          "industry",
+          "location"
+        ],
+        "examples": [
+          "Google",
+          "Microsoft"
+        ]
+      },
+      {
+        "name": "FinancialInstrument",
+        "description": "A tradable asset or currency.",
+        "attributes": [
+          "ticker",
+          "type"
+        ],
+        "examples": [
+          "Bitcoin",
+          "Gold"
+        ]
+      },
+      {
+        "name": "SocialNetwork",
+        "description": "Online platform for social interaction.",
+        "attributes": [
+          "user_count",
+          "platform_type"
+        ],
+        "examples": [
+          "Facebook",
+          "Twitter"
+        ]
+      },
+      {
+        "name": "InfrastructureProvider",
+        "description": "Entity providing physical/digital infrastructure.",
+        "attributes": [
+          "service_type",
+          "coverage"
+        ],
+        "examples": [
+          "Uber",
+          "Google Cloud"
+        ]
+      },
+      {
+        "name": "PoliticalEntity",
+        "description": "A governing or political body.",
+        "attributes": [
+          "jurisdiction",
+          "ideology"
+        ],
+        "examples": [
+          "United States",
+          "Silicon Valley"
+        ]
+      },
+      {
+        "name": "MediaOutlet",
+        "description": "Organization producing news/content.",
+        "attributes": [
+          "reach",
+          "bias"
+        ],
+        "examples": [
+          "The New York Times",
+          "Wired"
+        ]
+      },
+      {
+        "name": "Community",
+        "description": "A group sharing common interests.",
+        "attributes": [
+          "size",
+          "focus"
+        ],
+        "examples": [
+          "CrossFitters",
+          "Vegans"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "A human being.",
+        "attributes": [
+          "age",
+          "occupation"
+        ],
+        "examples": [
+          "John Doe",
+          "Jane Smith"
+        ]
+      },
+      {
+        "name": "Startup",
+        "description": "New, innovative company.",
+        "attributes": [
+          "funding",
+          "industry"
+        ],
+        "examples": [
+          "Airbnb",
+          "Flipkart"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "FOUNDED",
+        "description": "Created or established an entity.",
+        "source→target": [
+          "Technologist",
+          "Startup"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "INVESTS_IN",
+        "description": "Provides financial support to another entity.",
+        "source→target": [
+          "Organisation",
+          "Organisation"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "DISCUSSES",
+        "description": "Communicates about a topic or entity.",
+        "source→target": [
+          "Person",
+          "Organisation"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "OPERATES_IN",
+        "description": "Conducts business within a location.",
+        "source→target": [
+          "Startup",
+          "PoliticalEntity"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "USES",
+        "description": "Employs a technology or service.",
+        "source→target": [
+          "Person",
+          "SocialNetwork"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "REGULATES",
+        "description": "Enforces rules on an entity.",
+        "source→target": [
+          "PoliticalEntity",
+          "Organisation"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "MEMBERS_OF",
+        "description": "Belongs to a group or community.",
+        "source→target": [
+          "Person",
+          "Community"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "REPORTS_ON",
+        "description": "Provides news coverage of an entity.",
+        "source→target": [
+          "MediaOutlet",
+          "Organisation"
+        ],
+        "source_targets": [],
+        "attributes": []
+      }
+    ],
+    "analysis_summary": "The document discusses the reorganization of the world through software and the cloud, highlighting a shift in how people form communities and seek opportunities. It posits that the cloud is becoming a new space for migration, potentially leading to the emergence of 'cloud towns' and even 'cloud countries'. The text explores the technological advancements enabling this shift, including advancements in transportation, infrastructure, and communication, and draws parallels to historical migration patterns. The author suggests that these cloud formations are driven by a search for community and opportunity, and are not necessarily tied to traditional geographic boundaries."
+  },
+  "analysis_summary": "The document discusses the reorganization of the world through software and the cloud, highlighting a shift in how people form communities and seek opportunities. It posits that the cloud is becoming a new space for migration, potentially leading to the emergence of 'cloud towns' and even 'cloud countries'. The text explores the technological advancements enabling this shift, including advancements in transportation, infrastructure, and communication, and draws parallels to historical migration patterns. The author suggests that these cloud formations are driven by a search for community and opportunity, and are not necessarily tied to traditional geographic boundaries.",
+  "prediction_goal": "gdp of india",
+  "error": null,
+  "graph_id": "g_b5bc4595afe5"
+}

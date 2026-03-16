@@ -1,0 +1,34 @@
+{
+  "project_id": "proj_423406edcfd9",
+  "name": "hash",
+  "status": "created",
+  "created_at": "2026-03-16T16:33:22.195515Z",
+  "updated_at": "2026-03-16T16:35:27.897844Z",
+  "files": [
+    {
+      "original_name": "20200102_201900_coinbases-pragmatic-crypto-culture.txt",
+      "saved_name": "6e6b576e.txt",
+      "path": "/Users/vedang/Vedang/backend/app/../uploads/projects/proj_423406edcfd9/files/6e6b576e.txt",
+      "size": 8872
+    }
+  ],
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "Person",
+        "description": "Individual person"
+      },
+      {
+        "name": "Organization",
+        "description": "Organisation or group"
+      }
+    ],
+    "edge_types": [],
+    "analysis_summary": ""
+  },
+  "analysis_summary": null,
+  "prediction_goal": "network state of future",
+  "error": null,
+  "graph_id": "g_33f794332bc2",
+  "sim_id": "sim_ff9d1c227134"
+}

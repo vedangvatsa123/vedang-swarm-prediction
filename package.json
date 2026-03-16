@@ -1,0 +1,21 @@
+{
+  "name": "vedang",
+  "version": "1.0.0",
+  "description": "Vedang - Swarm Intelligence Prediction Engine",
+  "scripts": {
+    "setup": "npm install && cd frontend && npm install",
+    "setup:backend": "cd backend && pip install -r requirements.txt",
+    "setup:all": "npm run setup && npm run setup:backend",
+    "dev": "concurrently --kill-others -n \"backend,frontend\" -c \"green,cyan\" \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && python run.py",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

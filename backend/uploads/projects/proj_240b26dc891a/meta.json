@@ -1,0 +1,19 @@
+{
+  "project_id": "proj_240b26dc891a",
+  "name": "Countries",
+  "status": "created",
+  "created_at": "2026-03-16T16:26:55.129124Z",
+  "updated_at": "2026-03-16T16:26:55.132158Z",
+  "files": [
+    {
+      "original_name": "balajis-all-posts.txt",
+      "saved_name": "3d644232.txt",
+      "path": "/Users/vedang/Vedang/backend/app/../uploads/projects/proj_240b26dc891a/files/3d644232.txt",
+      "size": 1535125
+    }
+  ],
+  "ontology": null,
+  "analysis_summary": null,
+  "prediction_goal": "How countries will be like in future",
+  "error": null
+}

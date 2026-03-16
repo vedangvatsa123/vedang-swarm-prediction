@@ -1,0 +1,238 @@
+{
+  "project_id": "proj_860c4d47c585",
+  "name": "india's gdp",
+  "status": "graph_building",
+  "created_at": "2026-03-16T14:18:20.684208Z",
+  "updated_at": "2026-03-16T16:19:53.506678Z",
+  "files": [
+    {
+      "original_name": "network_states_with_about.pdf",
+      "saved_name": "3f97a114.pdf",
+      "path": "/Users/vedang/Vedang/backend/app/../uploads/projects/proj_860c4d47c585/files/3f97a114.pdf",
+      "size": 88615
+    }
+  ],
+  "ontology": {
+    "entity_types": [
+      {
+        "name": "NetworkCity",
+        "description": "A planned or developing city focused on tech & community.",
+        "attributes": [
+          "population_target",
+          "location",
+          "governance_model"
+        ],
+        "examples": [
+          "Union X City",
+          "Itana"
+        ]
+      },
+      {
+        "name": "DAO",
+        "description": "Decentralized Autonomous Organization.",
+        "attributes": [
+          "token_symbol",
+          "treasury_size",
+          "voting_mechanism"
+        ],
+        "examples": [
+          "MoonDAO",
+          "Isla de LOBOS"
+        ]
+      },
+      {
+        "name": "DigitalNomadCommunity",
+        "description": "Community focused on remote work and location independence.",
+        "attributes": [
+          "membership_size",
+          "primary_platform",
+          "location_focus"
+        ],
+        "examples": [
+          "Plumia",
+          "Metropolis Global"
+        ]
+      },
+      {
+        "name": "FreeCityProject",
+        "description": "Project aiming to establish a self-governing city.",
+        "attributes": [
+          "legal_status",
+          "funding_model",
+          "governance_type"
+        ],
+        "examples": [
+          "Atlas Island",
+          "Catawba (CDEZ)"
+        ]
+      },
+      {
+        "name": "SustainabilityInitiative",
+        "description": "Project focused on ecological sustainability.",
+        "attributes": [
+          "environmental_impact",
+          "resource_focus",
+          "tech_used"
+        ],
+        "examples": [
+          "Oceanix",
+          "Traditional Dream Factory"
+        ]
+      },
+      {
+        "name": "TechCompany",
+        "description": "Company developing technology for communities.",
+        "attributes": [
+          "funding_stage",
+          "product_type",
+          "target_market"
+        ],
+        "examples": [
+          "Urbit",
+          "Kleros"
+        ]
+      },
+      {
+        "name": "RegionalDevelopment",
+        "description": "Initiative focused on developing a specific region.",
+        "attributes": [
+          "geographic_focus",
+          "economic_strategy",
+          "population_served"
+        ],
+        "examples": [
+          "Gelephu Mindfulness City",
+          "Porta Norte"
+        ]
+      },
+      {
+        "name": "ResearchInstitute",
+        "description": "Organization conducting research related to new communities.",
+        "attributes": [
+          "research_focus",
+          "funding_source",
+          "publication_rate"
+        ],
+        "examples": [
+          "Akiya Collective",
+          "Esmeralda Institute"
+        ]
+      },
+      {
+        "name": "Person",
+        "description": "Individual involved in the network state ecosystem.",
+        "attributes": [
+          "role",
+          "affiliation",
+          "expertise"
+        ],
+        "examples": [
+          "Joe Lubin",
+          "Pablo Moncada"
+        ]
+      },
+      {
+        "name": "Organization",
+        "description": "General entity representing a group or institution.",
+        "attributes": [
+          "type",
+          "location",
+          "size"
+        ],
+        "examples": [
+          "SafetyWing",
+          "Free Cities Foundation"
+        ]
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "FOUNDED_BY",
+        "description": "An entity was founded by a person.",
+        "source→target": [
+          "TechCompany→Person",
+          "NetworkCity→Person",
+          "DAO→Person"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "PARTNERS_WITH",
+        "description": "Two entities are collaborating.",
+        "source→target": [
+          "TechCompany→TechCompany",
+          "NetworkCity→Organization",
+          "DAO→DAO"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "LOCATED_IN",
+        "description": "An entity is geographically located in a region.",
+        "source→target": [
+          "NetworkCity→RegionalDevelopment",
+          "SustainabilityInitiative→RegionalDevelopment"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "GOVERNED_BY",
+        "description": "An entity is governed by another entity.",
+        "source→target": [
+          "NetworkCity→DAO",
+          "FreeCityProject→DAO"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "INVESTS_IN",
+        "description": "An entity invests financial resources into another.",
+        "source→target": [
+          "Organization→TechCompany",
+          "DAO→NetworkCity"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "MEMBERS_OF",
+        "description": "A person is a member of an organization.",
+        "source→target": [
+          "Person→DAO",
+          "Person→DigitalNomadCommunity"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "FOCUSES_ON",
+        "description": "An entity focuses its efforts on a specific area.",
+        "source→target": [
+          "SustainabilityInitiative→TechCompany",
+          "ResearchInstitute→RegionalDevelopment"
+        ],
+        "source_targets": [],
+        "attributes": []
+      },
+      {
+        "name": "INSPIRED_BY",
+        "description": "An entity draws inspiration from another.",
+        "source→target": [
+          "NetworkCity→NetworkCity",
+          "FreeCityProject→FreeCityProject"
+        ],
+        "source_targets": [],
+        "attributes": []
+      }
+    ],
+    "analysis_summary": "The document collection focuses on emerging trends in network states, startup societies, and decentralized communities. These projects explore alternative governance models, often leveraging blockchain technology and web3 principles to create more autonomous, sustainable, and digitally-integrated living arrangements. A key theme is the desire for greater individual sovereignty, financial independence, and community-driven development, often in contrast to traditional nation-state structures. Projects range from fully digital organizations to physical communities being built in locations like Panama, Uruguay, and the Philippines, with a strong emphasis on sustainability and technological innovation. The documents highlight a diverse ecosystem of actors, including DAOs, tech companies, and individuals driving these initiatives."
+  },
+  "analysis_summary": "The document collection focuses on emerging trends in network states, startup societies, and decentralized communities. These projects explore alternative governance models, often leveraging blockchain technology and web3 principles to create more autonomous, sustainable, and digitally-integrated living arrangements. A key theme is the desire for greater individual sovereignty, financial independence, and community-driven development, often in contrast to traditional nation-state structures. Projects range from fully digital organizations to physical communities being built in locations like Panama, Uruguay, and the Philippines, with a strong emphasis on sustainability and technological innovation. The documents highlight a diverse ecosystem of actors, including DAOs, tech companies, and individuals driving these initiatives.",
+  "prediction_goal": "india gdp",
+  "error": null,
+  "graph_id": "g_677ba1fdfae1"
+}

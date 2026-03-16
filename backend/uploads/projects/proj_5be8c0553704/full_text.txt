@@ -1,0 +1,224 @@
+=== Document 1: 4ca3b27c.txt ===
+A Brief History of Money
+
+N.B: This post was originally written by https://x.com/hosseeb?ref=nakamoto.com and published on nakamoto.com on December 29, 2019.
+
+https://substackcdn.com/image/fetch/$s_!9moJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F033e6a99-4613-420b-bc7b-64edd4496c95_1920x960.png"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks" 
+
+— The Bitcoin Genesis Block
+
+In October 2008, a pseudonymous programmer by the name of Satoshi Nakamoto published a white paper in which he described a protocol for a decentralized digital currency. He called this protocol Bitcoin. A few years later, Satoshi disappeared without a trace, but the technology he created would go on to change the world.
+
+Bitcoin is now a global phenomenon. But why was it created? Why did it take off when it did? And why did it succeed where its predecessors failed?
+
+It's tempting to start a course like this by talking about cryptography or blockchains, but if we want to understand this stuff from first principles, we have to start even simpler. To understand why cryptocurrencies were invented, you first have to understand what problem they were meant to solve.
+
+So we will begin by trying to answer the simple question: what is money, and why did it arise?
+
+The origins of money
+
+Imagine we are two Neolithic farmers. You have some grain, I have some cows, and we both decide to trade. This direct exchange of commodities is known as barter.
+
+Barter sounds lovely in principle, but barter is terribly inefficient. This is because barter suffers from the so-called double coincidence of wants. For a trade to take place, both parties must want the exact item the other person is willing to trade. What if Jane wants a cow from Jim, while Jim wants grain from Joe, and Joe wants wool from Sally? In a barter economy, this market can’t clear, and everyone is forced to wait until the perfect configuration of trades arrives on the market. This means many otherwise desirable trades will never happen.
+
+Anthropologists believe it's unlikely that money actually arose from barter, but it's nevertheless instructive to treat barter as a base case.
+
+Often there's a commodity in high demand throughout an economy, and that commodity starts dominating trade. This commodity could be cattle, yams—or, if you’re in prison, cigarettes. If this commodity becomes widespread enough, it effectively becomes a form of money, known as commodity money. But most forms of commodity money are not very scalable, and the most valued commodities tended to differ across early societies.
+
+The first observed proto-money took the form of collectibles. Collectibles are small, mostly homogenous items such as shells or beads. Collectibles tend to be durable, easy to store or hide on one’s person, difficult to find or forge, and easy to appraise in value. This made them more robust forms of money relative to many commodity forms of money like cattle.
+
+https://substackcdn.com/image/fetch/$s_!P_H0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf76c795-b569-4e95-86c3-ffc9fbb365ef_1200x703.jpegWampum beads. Credit: Lise Puyo, UPenn
+
+The adoption of collectibles as durable money was pivotal in human evolution. Tribes would often specialize in hunting a particular species, but because of animal migrations, a given tribe might have very little food during parts of the year. By foraging for collectibles while their prey was in low season, they could trade with other tribes whose prey was in high season and thus had excess food. Through trade of collectibles, food could be more uniformly distributed across time and all tribes were better off.
+
+Some historians claim that money originated out of collectibles, and others claim that money originated from credit. Credit in this context refers to the simple human accounting of favors: I let you borrow something, and I trust that you’ll pay me back later. Given the close-knit nature of human tribes, it’s possible that credit dominated many social relations.
+
+Even as human tribes settled down in the neolithic era, villages tended to be small and close-knit. Thus, most people knew each other’s credit-worthiness. It was possible to have a long-running bar tab at the local tavern when the bartender knew you, your family, and your status in society. In time, credit relationships like these evolved into promissory notes, and traded directly in a local economy.
+
+But informal credit systems do not scale up to cities, where it’s impossible for everyone to know everyone. To orchestrate larger societies, you eventually need a mature system of money.
+
+So this raises the question: what does it take for something to become money?
+
+The properties of money
+
+The mainstream economic definition of money was first proposed by William Stanley Jevons in 1875. According to Jevons, money has three primary properties:
+
+
+store of value
+
+
+medium of exchange
+
+
+unit of account
+
+
+When an asset serves as a store of value, this means you can reliably retrieve the value you paid for that asset. This disqualifies perishable assets like yams from serving as money. If your money can rot, it’s a bad store of value. So for an asset to serve as a store of value, it must be durable.
+
+However, durability is a necessary but not sufficient condition. To retrieve the value paid for an asset implies the ability to sell it to someone later at the asset’s original price. Thus, a second condition for an asset to serve as a store of value is that it must be consistently valued by others in the market.
+
+A medium of exchange is the asset we use to directly settle transactions. This is the easiest hurdle to clear. You can use Starbucks rewards points to buy a latte, so Starbucks points function as a medium of exchange. But of course, Starbucks points aren't a great store of value—people know this instinctively and don't store their savings into Starbucks points. This is not just because it's impractical; people are aware that Starbucks might modify their rewards program to devalue these points, and there's not a stable market for selling saved up points.
+
+But as a medium of exchange to buy coffee, Starbucks points work perfectly fine.
+
+A unit of account is the unit in which you denominate prices. This one's simple: how do you quote the price of a home? Is the price denominated in USD, in euros, or in cowry shells? That’s your unit of account.
+
+There are times when the legally recognized currency ceases to be a unit of account. For example, in 2009 Zimbabwean dollars were undergoing rapid hyperinflation. With the prices of goods skyrocketing, it became impractical for businesses to keep marking up their prices every day in the collapsing currency. So instead, businesses denominated prices in USD and simply http://gregmankiw.blogspot.com/2010/12/picture-of-hyperinflation.html?ref=nakamoto.com. Thus, the Zimbabwean dollar ceased to be a unit of account and no longer meaningfully served as money.
+
+So what Jevons ultimately tells us is that, at bottom, almost anything can be money, but few things actually are. If you’re looking for candidates, it doesn’t matter whether it’s physical or digital, made of metal or paper—if it’s durable and there’s more than one of it, it can be money given the right circumstances.
+
+This might sound like an abstract point. But there have been many cases of humans converging on unconventional forms of money, and it's often useful to understand a concept by seeing it stretched to an extreme. So we'll turn next to one of the strangest forms of money: the Yapese and their Rai stones.
+
+The Rai stones
+
+The island of Yap is a small island in Micronesia. The Yapese have a strange practice that dates back to at least 1000 years ago: the Yapese use “stone money.”
+
+These huge, donut-shaped discs of limestone are known as Rai stones. The largest stones weigh up to several tons—far too large for humans to easily move, much less carry in their wallets. So how is it possible for the Yapese to transact with these massive stones?
+
+https://substackcdn.com/image/fetch/$s_!Hk5t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76f8d01d-4dc0-4287-a5bd-6bb0554572a7_790x524.jpegRai stones. Credit: Gerald Zinnecker, Flickr
+
+Simple: the stones never move. Instead, the Yapese "exchange" the stones entirely through social agreement.
+
+So long as both parties agree to perform a transaction with a Rai stone (or a fraction of one), the Rai stone is considered transferred. The physical location of each stone is not considered meaningful. This transaction is recorded solely via oral history.
+
+Once, an esteemed Yapese family was ferrying a Rai stone across the sea. Caught in a harsh storm, the boat capsized and the Rai stone sunk to the bottom of the sea.
+
+It was widely agreed that the family was too honorable to have their wealth diminished by such an unfortuitous event. So it was decided that this Rai stone was still valid, and it continued to hold value and “change hands” even though no one could quite pinpoint where it rested on the seafloor.
+
+These days, the Yapese primarily use US dollars, and Rai stones are only exchanged in special circumstances such as marriages or political negotiations. But the story of the Rai stones illustrates an important lesson: anything can serve as money, so long as there is stable social consensus about its value. While it’s nice for money to have some intrinsic value, it’s not strictly necessary.
+
+As Yuval Noah Harari puts it in his book Sapiens:
+
+Why should anyone be willing to exchange a fertile rice paddy for a handful of useless cowry shells? Why are you willing to flip hamburgers, sell health insurance or babysit three obnoxious brats when all you get for your exertions is a few pieces of coloured paper? People are willing to do such things when they trust the figments of their collective imagination. Trust is the raw material from which all types of money are minted.
+
+Or, as, Peter Thiel puts it:
+
+Money is just a bubble that never pops.
+
+The Rai stones illustrate an important point: the form that money takes is arbitrary. What matters is the underlying function it plays in a society.
+
+But let's return to our world. Next, we will trace the story of how money historically evolved.
+
+Metals as money
+
+The evolutionary lineage of modern money really begins with precious metals. The first use of metals as money is believed to begin around 1000 BC, at the advent of the Iron Age.
+
+It might seem obvious now that precious metals are valuable, but it’s worth asking: why did so many societies converge on metals as a form of money? There are some intrinsic reasons why precious metals made better money than collectibles. Precious metals are:
+
+
+visually striking for decoration and jewelry
+
+
+scarce (which leads to low supply inflation)
+
+
+durable and difficult to corrode
+
+
+hard to fake
+
+
+divisible (by breaking them into smaller quantities)
+
+
+Initially, chunks of gold and silver metal were used directly as forms of money. Eventually coinage began around 600 BC in modern day Turkey. These first coins were minted out of a gold and silver alloy.
+
+https://substackcdn.com/image/fetch/$s_!Tow-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffaeed314-4f5a-44eb-8c61-959cd20130f3_500x213.jpegLydian coins, circa 600 BC. Credit: Romancoins.info
+
+Why mint coins though? It's an awful lot of work. What's so bad about just using gold and silver pieces directly?
+
+The obvious answer is that coinage standardizes quantities of payment. But this isn’t the full answer—after all, most small societies operated on credit relationships, and settling via gold was rarely necessary in local trade networks.
+
+Anthropologists like David Graeber speculate that coinage arose to serve the needs of organized armies and mercenaries. Soldiers travel far distances, and they do not have long-lasting credit relationships. So the only way for them to receive compensation is through forms of money that will be recognized in far away places. Even if a counterparty didn't recognize the sovereign backing the coin, they'd still be willing to value the precious metal in the coin itself.
+
+Paper money, on the other hand, would not arrive until 1000 AD, a full 1600 years later. Paper money was first invented in China during the Song Dynasty and would much later be exported to Europe by Marco Polo. This paper money makes for an interesting case study.
+
+The Song Dynasty's paper bills were supposed to be redeemable for fixed exchange rates in gold, silver, or silk. But in practice, conversion was never allowed. So the bills essentially traded entirely without any commodity backing. Thus, the first paper money was also arguably the first fiat currency.
+
+What do we mean by fiat currency? The word fiat literally means “by faith.” A fiat currency is one that has no intrinsic value, but is only valuable because the exchanging parties agree to its value, or because a third party uses its power to maintain that value. This puts fiat money in stark contrast with commodity money, which is intrinsically valuable. Absent the implicit backing of a third party, fiat paper bills would basically be worthless pieces of paper.
+
+This begs the question: why didn’t fiat money arise earlier? It’s a lot cheaper to print fiat money than to mint gold coins. Of course, paper was invented in China and only reached Europe in the 13th century, but you don’t necessarily need paper to create fiat currencies. Pennies and nickels are fiat coins today, since their underlying metals are worth less than their face values. Why didn't it arise earlier?
+
+David Graeber speculates that the reason fiat money first arose in China is because it was the only government centralized and powerful enough to impose top-down control over their domestic economy. Keep in mind, history usually overemphasizes kings and their kingdoms—they dictate the history books, after all—but kings and their goings-on had little influence in most people's daily lives. As an ancient Chinese proverb puts it, 天高皇帝远: “https://en.wikipedia.org/wiki/Tian_gao,_Huangdi_yuan?ref=nakamoto.com.” Thus, it usually wasn’t government-minted currency that circulated in a local economy.
+
+Over time, governments would gain much more control over their domestic economies thanks to technological advances and more developed bureaucracies. And with that control came economic standardization onto the sovereign-backed currency.
+
+The history of modern banking
+
+Today, the majority of financial transactions are intermediated by banks. But banking is a relatively recent invention in monetary history. Money changers, loan sharks, and depositories have ancient roots, but the first modern banks were created in Renaissance Italy, run by merchant families like the Medicis. Bank failures were common during this time, and most banks did not survive long.
+
+Paper money would finally arrive in Europe in 1661 in the form of Swedish bank notes. Prior to centralized banking, all banking was privately operated. Each bank would issue its own bank notes, usually redeemable for gold held in the bank’s reserves.
+
+As the US Dollar is now the https://en.wikipedia.org/wiki/Reserve_currency?ref=nakamoto.com of the world, it's worth reflecting on America's monetary history. When America was founded, the federal government was responsible for minting silver and gold coins, with the US dollar defined as being worth a fixed quantity of precious metal. Yet most of money circulating in the economy was private bank notes issued by various commercial banks—at one point there were over 5,000 different types of notes in circulation. The US would briefly print fiat paper money to finance the Civil War in 1861, but afterward returned to money backed by precious metals.
+
+https://substackcdn.com/image/fetch/$s_!7BDN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F862ebb23-5055-411e-b10b-b980dd6728f3_700x317.jpegTwenty dollar private bank note. Credit: Library of Commerce
+
+Given that most bills were issued by private banks, the financial system was very loosely knit. This led to frequent panics and https://en.wikipedia.org/wiki/Panic_of_1907?ref=nakamoto.com. To stabilize the banking system, in 1913 the US established an independent central bank called the Federal Reserve. The Federal Reserve was given the exclusive right to print US dollars, with the explicit mandate of preventing banking panics and monetary crises. It was initially required to have gold backing 40% of its outstanding notes.
+
+After WWII, the US rose to become the world’s financial superpower, and it used that power to spearhead an international monetary system known as Bretton Woods. Under the Bretton Woods system, all major world powers fixed exchange rates of their own currencies against the USD (with about 1% of leeway), with the USD itself pegged to gold. This stabilized exchange rates between the world’s major currencies.
+
+But the enforced stability of Bretton Woods would not last. In the 1970s, against the US’s booming economy and increased government spending on the Vietnam war, the Federal Reserve printed more USD than it had gold backing it. This made the dollar overvalued under the Bretton Woods system. Foreign governments began exiting the Bretton Woods system and converted their excess USD into gold, depleting US gold reserves. Nixon realized that if this continued, it would precipitate a crisis. So in 1971 Nixon broke from Bretton Woods, canceling the international convertibility of USD into gold, and permanently breaking the gold standard and turning the US dollar into a pure fiat currency.
+
+https://substackcdn.com/image/fetch/$s_!xnt9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F873ed091-f159-4c46-986d-039956c8e51e_418x604.pngThe New York Times front page on August 22, 1971. Credit: New York Times
+
+With the US dollar now a fiat currency, the Federal Reserve had much more freedom to dictate the monetary policy for the country and, to a significant extent, the world. Since then, all major world currencies have also become fiat currencies, centrally managed by their respective central banks.
+
+At first glance, transitioning to a fiat currency seems like a strange thing. One day, the US dollar was valuable because it could be exchanged for gold. The next day, it’s valuable because… just because?
+
+What gives a fiat currency its value? Is it like the Rai stones, where it’s valuable simply because we all agree it’s valuable?
+
+That’s partly correct. And certainly US dollars will be valuable because US businesses prefer to be paid in them, and lots of people want to buy things from US businesses. But what’s to stop the US economy from standardizing on another currency? Technically, US businesses are legally free to accept payment in whatever currency they want.
+
+The reason why the US dollar holds its value is because the US government makes two important guarantees about US dollars. The first guarantee is that the US government and Federal Reserve will take reasonable actions to preserve its stable purchasing power on the market. The second guarantee is that the payment of US taxes will only be accepted in the US dollar. Thus, because there are many people who need to pay taxes to the US government, there will be high demand for US dollars (this is also augmented by https://www.investopedia.com/terms/p/petrodollars.asp?ref=nakamoto.com demand). These guarantees, at bottom, ground the US dollar's value as a fiat currency.
+
+Fast forwarding to the 21st century, a lot has happened since the end of the gold standard. In 2008, we saw a financial crisis threaten to destroy the global banking system. In response to cascading banking failures, central banks around the world bailed out financial institutions, printed huge amounts of money, and engaged in massive asset-purchasing operations—a practice known as https://en.wikipedia.org/wiki/Quantitative_easing?ref=nakamoto.com.
+
+Against this backdrop of financial chaos, a pseudonymous programmer by the name of Satoshi Nakamoto was whittling away on the Bitcoin protocol. And it was this headline during the midst of the financial crisis, printed on the cover of a British newspaper, that Satoshi would embed into the first block of the Bitcoin blockchain: “The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.”
+
+The development of payments technology
+
+Since the advent of money, there have been many technologies that facilitated the payment of money: paper bills, cheques, and letters of credit all have ancient origins.
+
+But the modern technology of payments really began to evolve with the invention of the credit card. Though credit cards existed as early as the 1920s, early versions of credit cards were issued by a single merchant for use at their own stores. The idea of a credit card as a universal payment scheme would not arrive until the 1950s.
+
+https://substackcdn.com/image/fetch/$s_!-FZG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71998436-0499-46f4-a4ed-d97436cea587_500x292.pngOriginal Diner's Club credit card. Credit: Diner's Club
+
+The first credit card to achieve commercial success was Diner’s Club in 1950. The original card was made of cardboard and was only accepted at 27 restaurants in New York. This number quickly ballooned as consumers began adopting cashless payments. Visa would be founded in 1958, Mastercard in 1979. Given that credit scores and financial surveillance were not as widespread in the early days of credit cards, many credit card networks bootstrapped adoption via direct mail campaigns, literally mailing a card to every address in an entire zip code.
+
+By the 80s, credit cards had become ubiquitous in American society. They quickly spread to Europe and beyond, and have since led to a revolution in cashless payments.
+
+The next iteration in payments technology would be launched by the Internet, which began gaining mainstream consumer adoption in the late 90s. In the early Internet, almost all payments took place via credit cards. This is because credit card networks were already quite robust, and almost everyone already had one. But Internet-native payment schemes would eventually arise, such as https://en.wikipedia.org/wiki/CyberCash?ref=nakamoto.com and https://en.wikipedia.org/wiki/DigiCash?ref=nakamoto.com. The first widely successful online payments company was PayPal in 2002, which went public and was later purchased by eBay for $1.5B.
+
+Today, there's wide variation in how consumers make online payments. In most countries and in the US, consumers prefer credit cards or bank cards. But other common methods include Paypal, eWallets such as AliPay or Skrill, and in some countries, cash on delivery. With the advent of cryptocurrencies, this landscape has evolved even further.
+
+The birth of Bitcoin
+
+Human history has seen many evolutions in the forms and incentives around money. Of course, there's much more to the history of money than we could cover in this brief survey. But any history of money must now end with the same final chapter: the invention of cryptocurrencies.
+
+Since its launch in 2009, Bitcoin has taken the world by storm. In 2010, one bitcoin was worth $0.003, and in December 2017, Bitcoin hit its all time high of almost $20,000 a bitcoin, an increase of 6,000,000x. Today the price of a Bitcoin hovers at around $7000 a bitcoin. It's estimated that Bitcoin has on the order of https://www.bitcoinmarketjournal.com/how-many-people-use-bitcoin/?ref=nakamoto.com—a small figure by global scales, but one that continues to grow.
+
+It's a staggering story. But Bitcoin's story is about more than just price: its genesis is deeply rooted in ideology. We'll now turn to another aspect of how cryptocurrencies arose: from the subculture known as the cypherpunks. In the next lesson, we'll learn about the cypherpunks, their previous attempts at building digital currencies, and why every other attempt had failed—up until Bitcoin.
+
+Assignment
+
+At the end of every lesson there will be an assignment to test your comprehension. We strongly recommend you do every assignment, as it'll help you better internalize the material. Some of the assignments will be simple multiple-choice quizzes, and others will be full-on coding problems.
+
+To start, the first assignment will be multiple choice.
+
+https://forms.gle/QaLJJ1qrxzxYKYip9?ref=nakamoto.com Once you've completed it, you're ready to move on.
+
+Additional Reading
+
+
+https://fermatslibrary.com/s/shelling-out-the-origins-of-money?ref=nakamoto.com by Nick Szabo (2002)
+
+
+https://www.amazon.com/Debt-First-5-000-Years/dp/1612191290?ref=nakamoto.com by David Graeber (2012)
+
+
+https://www.chicagoideas.com/videos/bitcoin-the-new-gold-standard?ref=nakamoto.com (video) by Wences Casares (2014)
+
+
+http://www.bbc.com/travel/story/20180502-the-tiny-island-with-human-sized-money?ref=nakamoto.com by Robert Michael Poole, BBC (2018)
+
+

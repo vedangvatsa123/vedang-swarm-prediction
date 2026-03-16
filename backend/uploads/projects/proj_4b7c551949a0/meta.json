@@ -1,0 +1,19 @@
+{
+  "project_id": "proj_4b7c551949a0",
+  "name": "Network State",
+  "status": "created",
+  "created_at": "2026-03-16T16:31:39.155379Z",
+  "updated_at": "2026-03-16T16:31:39.157276Z",
+  "files": [
+    {
+      "original_name": "20191228_203200_hashcash.txt",
+      "saved_name": "d7a12ece.txt",
+      "path": "/Users/vedang/Vedang/backend/app/../uploads/projects/proj_4b7c551949a0/files/d7a12ece.txt",
+      "size": 9464
+    }
+  ],
+  "ontology": null,
+  "analysis_summary": null,
+  "prediction_goal": "Network State",
+  "error": null
+}
