@@ -21,37 +21,33 @@ You can read every argument, see who flipped and why, and ask follow-up question
 ## Architecture
 
 ```text
-┌─────────────────────────────────────────────────────┐
-│                    FRONTEND                          │
-│               Vue 3 + Vite + D3.js                   │
+┌──────────────────────────────────────────────────────┐
+│  FRONTEND  (Vue 3 + Vite + D3.js)                    │
 │                                                      │
-│  Home View ──── Project Results ──── Wiki Page       │
-│                      │                               │
-│              SwarmGraph (D3.js)                       │
-│              force-directed graph                    │
-│                      │                               │
-│              HTTP Client (api/)                      │
+│  Views: Home, Project Results, Wiki                  │
+│  Components: SwarmGraph (D3 force-directed)          │
+│  HTTP client (api/)                                  │
 └──────────────────────┼───────────────────────────────┘
                        │ JSON over HTTP
+
 ┌──────────────────────┼───────────────────────────────┐
-│                      │       BACKEND                  │
-│              Flask (threaded, :5001)                   │
+│  BACKEND  (Python + Flask, :5001, threaded)          │
+│                                                      │
+│  ┌────────────────────┴───────────────────────────┐  │
+│  │  api/       Route handlers                     │  │
+│  └────────────────────┬───────────────────────────┘  │
 │                      │                               │
-│  ┌───────────────────┴────────────────────────────┐  │
-│  │              API Routes                        │  │
-│  └───────────────────┬────────────────────────────┘  │
-│                      │                               │
-│  ┌───────────────────┴────────────────────────────┐  │
-│  │              Services                          │  │
+│  ┌────────────────────┴───────────────────────────┐  │
+│  │  services/                                     │  │
 │  │                                                │  │
 │  │  OntologyGenerator → GraphBuilder              │  │
-│  │       → AgentGenerator → SimulationEngine      │  │
-│  │            → ReportAgent                       │  │
+│  │      → AgentGenerator → SimulationEngine       │  │
+│  │           → ReportAgent                        │  │
 │  └────────────────────────────────────────────────┘  │
 │                                                      │
-│  Models: KnowledgeGraph (in-memory)                  │
-│  Utils:  LLM client (OpenAI + Anthropic, retry)      │
-│          Logger (structured, file rotation)           │
+│  models/    KnowledgeGraph (in-memory graph)         │
+│  utils/     LLM client (OpenAI + Anthropic, retry)   │
+│             Logger (structured, file rotation)        │
 └──────────────────────────────────────────────────────┘
 ```
 
