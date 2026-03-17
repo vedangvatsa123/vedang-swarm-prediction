@@ -2,6 +2,8 @@
 
 Swarm intelligence prediction engine. You give it data and a question. It spins up a bunch of AI agents, makes them argue about it, and gives you a prediction based on where they land.
 
+Demo: https://veda.ng/swarm-prediction
+
 ![Knowledge Graph](frontend/src/assets/wiki-graph.png)
 
 ## What is this
@@ -89,7 +91,3 @@ Your input data lives in memory during the run. Nothing persists after.
 - Agents are powered by LLMs, so they share whatever limitations those models have.
 - The confidence numbers are relative, not calibrated against real outcomes.
 - Maximum depth burns through API credits. Start with Quick or Balanced.
-
-## License
-
-MIT
