@@ -29,14 +29,13 @@ You can read every argument, see who flipped and why, and ask follow-up question
 │  HTTP client (api/)                                  │
 └──────────────────────┼───────────────────────────────┘
                        │ JSON over HTTP
-
 ┌──────────────────────┼───────────────────────────────┐
 │  BACKEND  (Python + Flask, :5001, threaded)          │
 │                                                      │
 │  ┌────────────────────┴───────────────────────────┐  │
 │  │  api/       Route handlers                     │  │
 │  └────────────────────┬───────────────────────────┘  │
-│                      │                               │
+│                       │                              │
 │  ┌────────────────────┴───────────────────────────┐  │
 │  │  services/                                     │  │
 │  │                                                │  │
@@ -47,7 +46,7 @@ You can read every argument, see who flipped and why, and ask follow-up question
 │                                                      │
 │  models/    KnowledgeGraph (in-memory graph)         │
 │  utils/     LLM client (OpenAI + Anthropic, retry)   │
-│             Logger (structured, file rotation)        │
+│             Logger (structured, file rotation)       │
 └──────────────────────────────────────────────────────┘
 ```
 
