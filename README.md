@@ -190,7 +190,7 @@ frontend/
 ## Running Locally
 
 ```bash
-git clone https://github.com/vedangvatsa123/vedang-swarm-prediction.git
+git clone https://github.com/vedangvatsa/vedang-swarm-prediction.git
 cd vedang-swarm-prediction
 
 # Backend
